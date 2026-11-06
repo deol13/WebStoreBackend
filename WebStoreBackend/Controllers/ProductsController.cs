@@ -24,4 +24,4 @@ namespace WebStoreBackend.Controllers
             return CreatedAtAction(nameof(GetAll), new { id = product.Id }, product);
         }
     }
-}// Test
+}
